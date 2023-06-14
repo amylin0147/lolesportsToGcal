@@ -6,10 +6,10 @@ add config.json with a calendar id (seeSample)
 
 
 USE
->> python3 run.py -h
->> python3 run.py 
->> python3 run.py -l lck lpl
->> python3 run.py -l msi
+`python3 run.py -h`
+`python3 run.py `
+`python3 run.py -l lck lpl`
+`python3 run.py -l msi`
 consider using a venv
 
 this script will need to be rerun when more event details are announced. it will delete upcoming events first, then add the upcoming event details. 
